@@ -3,9 +3,10 @@ function setup() {
 }
 
 function draw() {
-  if(windowWidth != width || windowHeight != height){
-     resizeCanvas(windowWidth, windowHeight);
-  }
   background(220);
   rect(100,100,100,100);
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }
