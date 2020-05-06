@@ -57,7 +57,7 @@ var objects = [];
 var yshift = 0;
 var xshift = 0;
 
-var movementSpeed = 5000
+var movementSpeed = 8000
 
 var time = 0;
 
